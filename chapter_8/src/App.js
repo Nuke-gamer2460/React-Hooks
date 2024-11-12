@@ -5,12 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Github from "./GitHub";
 
 
-function App() {
-
+function App(props) {
   return (
-    <div>
-      <Github />
-    </div>
+    <Navbar username={props.username} />
   )
 }
 

@@ -15,11 +15,10 @@
     "react-loading": "^2.0.3",
     "react-loading-icons": "^1.1.0",
     "react-scripts": "^5.0.1",
-    "uuid": "^11.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=4000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
