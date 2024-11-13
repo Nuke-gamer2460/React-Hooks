@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
-
+import { useState, useEffect } from 'react'
+import axios from 'axios'
 const useAPI = endpoint => {
     const [data, setData] = useState([]) // initial state empty array
     //To call data when component is mounted,
@@ -13,5 +12,4 @@ const useAPI = endpoint => {
     }
     return data;
 }
-
-export default useAPI
+export default useAPI;
